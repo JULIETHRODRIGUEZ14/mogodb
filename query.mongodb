@@ -1,0 +1,17 @@
+use("sample_training");
+//consultar tabla
+db.zips.find({ city: "ALPINE"});
+
+//insercion de un documento
+let Julieth ={
+    first_name:"Julieth",
+    lest_name: "Rodriguez",
+    age: "25 años",
+    country: "colombia",
+    phone:"3213550209"
+    
+}
+db.zips.insertOne(Julieth);
+
+//consultar usuario
+db.zips.find({ first_name:"Julieth"});

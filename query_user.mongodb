@@ -1,0 +1,13 @@
+//declarar base de datos a usar
+use("Login");
+
+//insercion de usuarios nuevos
+let Julieth ={
+    first_name:"Julieth",
+    lest_name: "Rodriguez",
+    age: "25 años",
+    country: "colombia",
+    phone:"3213550209"
+    
+}
+db.Usuarios.insertOne(Julieth);

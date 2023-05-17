@@ -1,0 +1,6 @@
+use("Login");
+
+let data ={
+    lest_name: "Rodriguez",
+}
+db.Usuarios.find(data);
